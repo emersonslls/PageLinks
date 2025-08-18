@@ -1,0 +1,467 @@
+@import url(../Global//Global.css);
+
+.LinksPage {
+  position: relative;
+  width: 100%;
+  height: 2225px;
+
+  overflow: hidden;
+
+  background: var(--Preto);
+}
+
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 4px 0px;
+  gap: 52px;
+
+  position: relative;
+  width: 100%;
+  height: 960px;
+
+  & .sectionInformations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+
+    width: calc(100% - 4px);
+    height: auto;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    & img {
+      width: 200px;
+      height: 200px;
+
+      border-radius: 100%;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    & .Informations {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+
+      width: 100%;
+      height: auto;
+
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+
+      & h1 {
+        width: 100%;
+        height: auto;
+
+        font-family: var(--font-plus);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 40px;
+
+        align-items: center;
+        text-align: center;
+
+        color: var(--Branco);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+
+      & h2 {
+        width: 100%;
+        height: auto;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: var(--Cinza);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
+
+  & .sectionLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+
+    width: calc(100% - 8px);
+    height: auto;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    & .ContainerLink {
+      padding: 3px;
+      border-radius: 24px;
+
+      background: linear-gradient(135deg, #f0ede624, #f0ede600 72%);
+      box-shadow: 73px 44px 34px rgba(33, 33, 33, 0.01),
+        41px 25px 29px rgba(33, 33, 33, 0.03),
+        18px 11px 21px rgba(33, 33, 33, 0.04),
+        5px 3px 12px rgba(33, 33, 33, 0.05);
+
+      width: 100%;
+      height: 84px;
+
+      & .CardLink {
+        position: relative;
+        background: linear-gradient(100.41deg, #050506 0%, #101010 100%);
+        border-radius: 24px;
+        padding: 2px;
+        overflow: hidden;
+
+        width: 100%;
+        height: 78px;
+
+        .InfoLink {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          padding: 0px;
+          gap: 24px;
+
+          position: absolute;
+          width: 100%;
+          height: 52px;
+          left: 16px;
+          top: calc(50% - 52px / 2);
+
+          & .Icon {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9.75px;
+            gap: 9.75px;
+
+            width: 52px;
+            height: 52px;
+
+            background: linear-gradient(135deg, #066fd5 0%, #003fff 100%);
+            box-shadow: 0px 22.2857px 9.28571px rgba(4, 99, 223, 0.01),
+              0px 13px 7.42857px rgba(4, 99, 223, 0.05),
+              0px 5.57143px 5.57143px rgba(4, 99, 223, 0.09),
+              0px 1.85714px 3.71429px rgba(4, 99, 223, 0.1);
+            border-radius: 13px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+
+          & p {
+            width: 99px;
+            height: 18px;
+
+            font-family: var(--font-plus);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            leading-trim: both;
+            text-edge: cap;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: var(--Branco);
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 4px 0px;
+  gap: 68px;
+
+  position: relative;
+  width: 100%;
+  height: 1225px;
+
+  & .ContainerTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 15px;
+
+    width: calc(100% - 20px);
+    height: 44px;
+
+    background: linear-gradient(93.33deg, #066fd5 0%, #003fff 100%);
+    box-shadow: 0px 11px 5px rgba(3, 88, 233, 0.02),
+      0px 6px 4px rgba(3, 88, 233, 0.08), 0px 3px 3px rgba(3, 88, 233, 0.13),
+      0px 1px 2px rgba(3, 88, 233, 0.15);
+    border-radius: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    & h1 {
+      width: auto;
+      height: 20px;
+
+      font-family: var(--font-plus);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: var(--Branco);
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+
+  & .ProjectGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 52px;
+
+    width: calc(100% - 4px);
+    height: auto;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+/* Responsivo */
+
+/* TABLET (768px a 1023px) */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .LinksPage {
+    height: 2180px;
+  }
+
+  .sectionOne {
+    padding: 60px 4px 0px;
+    gap: 48px;
+
+    height: 804px;
+
+    & .sectionInformations {
+      width: calc(100% - 210px);
+    }
+
+    & .sectionLinks {
+      gap: 28px;
+
+      width: calc(100% - 290px);
+
+      & .ContainerLink {
+        height: 88px;
+
+        & .CardLink {
+          height: 82px;
+
+          .InfoLink {
+            left: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .sectionTwo {
+    gap: 60px;
+
+    height: 1190px;
+
+    & .ContainerTitle {
+      gap: 16px;
+
+      width: calc(100% - 460px);
+
+      border-radius: 20px;
+    }
+
+    & .ProjectGrid {
+      gap: 44px;
+
+      width: calc(100% - 390px);
+    }
+  }
+}
+
+/* DESKTOP / NOTEBOOK (≥1024px) */
+
+@media (min-width: 1024px) {
+  .LinksPage {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sectionOne {
+    padding: 80px 10px 0px;
+    gap: 52px;
+
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+    & .sectionInformations {
+      gap: 28px;
+
+      width: 369px;
+
+      & .Informations {
+        gap: 4px;
+      }
+    }
+
+    & .sectionLinks {
+      gap: 24px;
+
+      width: calc(100% - 224px);
+
+      & .ContainerLink {
+        border-radius: 20px;
+
+        & .CardLink {
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+
+  .sectionTwo {
+    padding: 80px 10px 0px;
+    gap: 60px;
+
+    width: 50%;
+    height: 100%;
+
+    & .ContainerTitle {
+      gap: 16px;
+
+      width: calc(100% - 280px);
+
+      border-radius: 20px;
+    }
+
+    & .ProjectGrid {
+      gap: 44px;
+
+      width: calc(100% - 220px);
+    }
+  }
+}
+
+/* TELAS GRANDES (≥1700px) */
+
+@media (min-width: 1700px) {
+  .LinksPage {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sectionOne {
+    padding: 60px 140px 0px;
+    gap: 52px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%; /* metade da tela */
+    height: 100vh; /* ocupa toda a altura da tela */
+    overflow-y: auto; /* caso queira que ela mesma tenha scroll interno */
+
+    & .sectionInformations {
+      gap: 28px;
+
+      width: 369px;
+
+      & .Informations {
+        gap: 4px;
+      }
+    }
+
+    & .sectionLinks {
+      gap: 24px;
+
+      width: calc(100% - 224px);
+
+      & .ContainerLink {
+        border-radius: 20px;
+
+        & .CardLink {
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+
+  .sectionTwo {
+    padding: 80px 10px 120px;
+    gap: 60px;
+
+    margin-left: 50%; /* empurra a sectionTwo pra direita */
+    width: 50%;
+    height: auto; /* essa sim rola */
+
+    & .ContainerTitle {
+      gap: 16px;
+
+      width: calc(100% - 320px);
+
+      border-radius: 20px;
+    }
+
+    & .ProjectGrid {
+      gap: 44px;
+
+      width: calc(100% - 420px);
+    }
+  }
+}
