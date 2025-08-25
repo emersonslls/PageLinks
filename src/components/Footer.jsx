@@ -1,10 +1,14 @@
-import '../styles/Components/Footer.module.css';
 
-import Logo from '../assets/Icons/New Logo.svg';  
+/* <-----  CSS -----> */
+import "../styles/Components/Footer.module.css";
+
+/* <-----  ASSETS -----> */
+import Logo from "../assets/Icons/New Logo.svg";
 
 function Footer() {
+
   return (
-    <footer>
+    <footer >
       <p>Feito por</p>
       <img src={Logo} />
     </footer>

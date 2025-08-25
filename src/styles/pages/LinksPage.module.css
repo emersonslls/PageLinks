@@ -286,7 +286,7 @@
     padding: 60px 4px 0px;
     gap: 48px;
 
-    height: 804px;
+    height: 900px;
 
     & .sectionInformations {
       width: calc(100% - 210px);

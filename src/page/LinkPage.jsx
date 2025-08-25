@@ -1,21 +1,25 @@
+/* <-----  FUNCTIONS REACT -----> */
+import React, { useRef, useState, useEffect } from "react";
+
+/* <-----  CSS -----> */
 import styles from "../styles/pages/LinksPage.module.css";
 
-import Foto from "../assets/Perfil.png";
-import LinkedIn from "../assets/Icons/LinkedIn.svg";
-import Email from "../assets/Icons/Email.svg";
-import Github from "../assets/Icons/GitHub.svg";
-import PortfolioIcon from "../assets/Icons/Portfolio.svg";
-import Icon from "../assets/Vector.svg";
 /* <-----  COMPONENTS -----> */
 import ProjectCard from "../components/ProjectCard";
-
-import React, { useRef, useState, useEffect } from "react";
+import Footer from "../components/Footer";
 
 /* <-----  ASSETS - ICONS TECHS-----> */
 import FigmaIcon from "../assets/Icons/Icons Techs/Figma.svg";
 import ReactIcon from "../assets/Icons/Icons Techs/ReactJS.svg";
 import CssIcon from "../assets/Icons/Icons Techs/CSS.svg";
-import Footer from "../components/Footer";
+/* <-----  ASSETS - ICONS REDES -----> */
+import LinkedIn from "../assets/Icons/LinkedIn.svg";
+import Email from "../assets/Icons/Email.svg";
+import Github from "../assets/Icons/GitHub.svg";
+/* <-----  ASSETS -----> */
+import Foto from "../assets/Perfil.png";
+import PortfolioIcon from "../assets/Icons/Portfolio.svg";
+import Icon from "../assets/Vector.svg";
 
 /* <---- AOS ANIMATIONS ----> */
 import AOS from "aos";
@@ -63,7 +67,7 @@ function LinksPage() {
   return (
     <section className={styles.LinksPage}>
       <section className={styles.sectionOne}>
-        <section className={styles.sectionInformations}>
+        <section className={styles.sectionInformations} data-aos="fade-down">
           <img src={Foto} />
           <div className={styles.Informations}>
             <h1>Emerson Sales</h1>
@@ -71,7 +75,7 @@ function LinksPage() {
           </div>
         </section>
         <section className={styles.sectionLinks}>
-          <section className={styles.ContainerLink}>
+          <section className={styles.ContainerLink} data-aos="fade-right">
             <a
               href="https://www.linkedin.com/in/emersonssales/"
               target="_blank"
@@ -89,7 +93,7 @@ function LinksPage() {
               </div>
             </a>
           </section>
-          <section className={styles.ContainerLink}>
+          <section className={styles.ContainerLink} data-aos="fade-right">
             <a
               href={`mailto:${meuEmail}`}
               target="_blank"
@@ -107,7 +111,7 @@ function LinksPage() {
               </div>
             </a>
           </section>
-          <section className={styles.ContainerLink}>
+          <section className={styles.ContainerLink} data-aos="fade-right">
             <a
               href="https://github.com/emersonslls"
               target="_blank"
@@ -125,7 +129,7 @@ function LinksPage() {
               </div>
             </a>
           </section>
-          <section className={styles.ContainerLink}>
+          <section className={styles.ContainerLink} data-aos="fade-right">
             <a
               href="https://salesdev.vercel.app"
               target="_blank"
@@ -147,7 +151,7 @@ function LinksPage() {
         <Footer />
       </section>
       <section className={styles.sectionTwo}>
-        <div className={styles.ContainerTitle}>
+        <div className={styles.ContainerTitle}  data-aos="fade-down">
           <h1>Meus projetos mais recentes</h1>
           <img src={Icon} />
         </div>
